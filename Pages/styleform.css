@@ -1,0 +1,114 @@
+.ciuname{
+    font-size:smaller ;
+  margin-left: 18px;
+}
+
+.logo{
+    margin-left: 28px;
+}
+
+body{
+
+    width: initial;
+    height: initial ;
+}
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    color:  rgb(34, 33, 33);
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.header{
+    box-sizing: border-box;
+    top: 0;right: 0;left: 0;
+    background-color:#f0f0f0;
+    font-size: 18px;
+    height: 76px;
+    align-items: center;
+    top:40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divheader{
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 40px;  
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight:lighter;
+    font-size: 1.5rem;
+    margin-right: 600px;
+    margin-top: 40px;
+}
+
+.divheader :hover{
+    text-decoration-line: underline;
+    text-shadow: 20px;
+    color: rgb(137, 135, 135);
+}
+
+
+
+table,th,td{
+    border:inset;
+    margin-left: 50px;
+    font-family: Garamond, serif;
+}
+th{
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th,td{
+    padding-right:15px;
+    padding-left: 5px;
+}
+
+select{
+    width: 80%;
+    border: 1px solid black;
+    border-color: black;
+}
+
+img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.formitem23{
+    padding: 2px;
+
+}
+.costshape
+{
+    width: 200px;
+}
+
+.formitem23
+{
+    text-align: center;
+    font-size: larger
+}
+
+.formitem234
+{
+padding: 30px;
+font-size: 20px;
+text-align: center;
+}
+.cal
+{
+    width: 100px;
+    padding: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}

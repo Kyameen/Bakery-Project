@@ -1,0 +1,650 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleform.css">
+
+    <script src="formCalculator.js" ></script>
+</head>
+<body>
+    
+ <!-- header section start here  -->
+ <header class="header">
+    <div class="logoContent">
+        <a href="#" class="logo"><img src="images/bakery-logo.png" alt="bakery LOGO"></a>
+        <h1 class="ciuName">CIU Bakery </h1>
+    </div>
+
+    <div class="divheader">
+        <a href="#index">Home</a>
+        <a href="items.html">Item</a>
+        <a href="form.html">form</a>
+        <a href="contactus.html">contact</a>
+    </dix>
+</header>
+<!-- header section end here  -->
+    
+<div class="form">
+    <table>
+        <tr>
+            <th>Items</th>
+            <th>Properties</th>
+            <th>Number of Items</th>
+            <th class="costshape">cost($)</th>
+        </tr>
+<tr>
+        <td>
+            <form action="">
+                    <input type="checkbox" name="shopping" value="item1" id="item1" onclick="myFunction()" >Sourdough Bread
+            </form>
+            <div class="allphoto">
+                <img src="itemamages/bread/1.jpg" alt="">
+            </div>
+        </td>
+    
+    
+        <td>
+            <form action="" id="formpageitem1" onclick="myFunction()" >
+    
+                    <input type="radio" name="shoping2" value="1" id="SourdoughBread1">Small-(1$) <br>
+                    <input type="radio" name="shoping2" value="2" id="Sourdough Bread2">Medium-(2$) <br>
+                    <input type="radio" name="shoping2" value="3" id="Sourdough Bread3">Large-(3$)
+            </form>
+            </td>
+            <td>
+                         <select name="numBread1" id="itemnum1" onchange="myFunction()" >
+                             <option value="1" >1</option>
+                             <option value="2" >2</option>
+                             <option value="3" >3</option>
+                             <option value="4" >4</option>
+                             <option value="5" >5</option>
+                             <option value="6" >6</option>
+                             <option value="7" >7</option>
+                             <option value="8" >8</option>
+                             <option value="9" >9</option>
+                             <option value="10" >10</option>
+                         </select>
+            </td>
+            <td>    
+                <p id="cost1" class="formitem23">Cost</p>
+            </td>
+    </tr>
+
+ <tr>
+            <td>
+                <form action="">
+                    <label for="item2">
+                        <input type="checkbox" name="shopping" value="item2" id="item2">Baguette Bread
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/bread/2.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem2" onclick="myFunction()">
+                        <input type="radio" name="shoping2" value="1" id="Baguette Bread1">Small-(1$) <br>
+                        <input type="radio" name="shoping2" value="1.5" id="Baguette Bread2">Medium-(1.5$) <br>
+                        <input type="radio" name="shoping2" value="2" id="Baguette Bread3">Large-(2$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum2" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+
+            <td>
+                <p id="cost2" class="formitem23">Cost</p>
+            </td>
+</tr>
+
+<tr>
+            <td>
+                <form action="">
+                    <label for="item3">
+                        <input type="checkbox" name="shopping" value="item3" id="item3">White Bread
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/bread/3.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem3" onclick="myFunction()">
+                        <input type="radio" name="shoping2" value="5" id="White Bread1">Small-(5$) <br>
+                        <input type="radio" name="shoping2" value="7" id="White Bread2">Medium-(7$) <br>
+                        <input type="radio" name="shoping2" value="10" id="White Bread3">Large-(10$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum3" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost3" class="formitem23">cost</p>
+            </td>
+        </tr>
+
+<tr>
+            <td>
+                <form action="">
+                    <label for="item4">
+                        <input type="checkbox" name="shopping" value="item4" id="item4">Brwon Bread
+                    </label>
+                </form>
+
+                <div class="allphoto">
+                    <img src="itemamages/bread/4.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem4" onclick="myFunction()" >
+                        <input type="radio" name="shoping2" value="6" id="Brwon Bread1">Small-(6$) <br>
+                        <input type="radio" name="shoping2" value="8" id="Brwon Bread2">Medium-(8$) <br>
+                        <input type="radio" name="shoping2" value="9" id="Brwon Bread3">Large-(9$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum4" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost4" class="formitem23">cost</p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <form action="">
+                    <label for="item5">
+                        <input type="checkbox" name="shopping" value="item5" id="item5">Cheese Cake
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/Cake/1.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem5" onclick="myFunction()">
+                        <input type="radio" name="shoping2" value="8" id="Cheese Cake1">Small-(8$)<br>
+                        <input type="radio" name="shoping2" value="12" id="cheese cake2">Medium-(12$)<br>
+                        <input type="radio" name="shoping2" value="15" id="cheese cake3">Large-(15$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum5" onchange="myFunction()" >
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+
+            <td>
+                <p id="cost5" class="formitem23">cost</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <form action="">
+                    <label for="item6">
+                        <input type="checkbox" name="shopping6" value="item6" id="item6">Chocolate Cake
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/Cake/2.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem6" onclick="myFunction()">
+                        <input type="radio" name="shoping6" value="7" id="Chocolate Cake1">Small-(7$)<br>
+                        <input type="radio" name="shoping6" value="10" id="Chocolate cake2">Medium-(10$) <br>
+                        <input type="radio" name="shoping6" value="13" id="Chocolate cake3">Large-(13$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum6" onchange="myFunction()" >
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost6" class="formitem23">cost</p>
+            </td>
+        </tr>
+      
+        <tr>
+            <td>
+                <form action="">
+                    <label for="item7">
+                        <input type="checkbox" name="shopping7" value="item6" id="item7">Vanilla Cake
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/Cake/3.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem7" onclick="myFunction()">
+                        <input type="radio" name="shoping7" value="4" id="Vanilla Cake1">Small-(4$)<br>
+                        <input type="radio" name="shoping7" value="6" id="Vanilla cake2">Medium-(6$) <br>
+                        <input type="radio" name="shoping7" value="9" id="Vanilla cake3">Large-(9$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum7" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost7" class="formitem23">cost</p>
+            </td>
+
+        </tr>
+
+            <tr>
+            <td>
+                <form action="">
+                    <label for="item8">
+                        <input type="checkbox" name="shopping8" value="item6" id="item8">Turkish Coffee
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/coffee/1.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem8" onclick="myFunction()">
+                        <input type="radio" name="shoping8" value="1.5" id="Turkish Coffee1">Small-(1.5$)<br>
+                        <input type="radio" name="shoping8" value="2" id="Turkish Coffee2">Medium-(2$) <br>
+                        <input type="radio" name="shoping8" value="3" id="Turkish Coffee3">Large-(3$)
+                    </label>
+                     </div>
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum8" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost8" class="formitem23">cost</p>
+            </td>
+
+        </tr>
+       
+        <tr>
+            <td>
+                <form action="">
+                    <label for="item9">
+                        <input type="checkbox" name="shopping9" value="item6" id="item9">Americano Coffee
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/coffee/2.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem9" onclick="myFunction()">
+                        <input type="radio" name="shoping9" value="2" id="Americano Coffee1">Small-(2$)<br>
+                        <input type="radio" name="shoping9" value="4" id="Americano Coffee2">Medium-(4$) <br>
+                        <input type="radio" name="shoping9" value="5" id="Americano Coffee3">Large-(5$)
+                    </label>
+                     </div>
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum9" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+
+            <td>
+                <p id="cost9" class="formitem23">cost</p>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <form action="">
+                    <label for="item10">
+                        <input type="checkbox" name="shopping10" value="item6" id="item10">Mocha Coffee
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/coffee/3.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem10" onclick="myFunction()">
+                        <input type="radio" name="shoping10" value="3" id="Mocha Coffee1">Small-(3$)<br>
+                        <input type="radio" name="shoping10" value="4" id="Mocha Coffee2">Medium-(4$) <br>
+                        <input type="radio" name="shoping10" value="4.5" id="Mocha Coffee3">Large-(4.5$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum10" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost10" class="formitem23">cost</p>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <form action="">
+                    <label for="item11">
+                        <input type="checkbox" name="shopping10" value="item6" id="item11">Kunafa
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/sweets/kunafa.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem11" onclick="myFunction()">
+                        <input type="radio" name="shoping11" value="3" id="Kunafa1">Small-(3$)<br>
+                        <input type="radio" name="shoping11" value="5" id="Kunafa2">Medium-(5$) <br>
+                        <input type="radio" name="shoping11" value="7" id="Kunafa3">Large-(7$)
+                    </label>
+                     </div>
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum11" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost11" class="formitem23">cost</p>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <form action="">
+                    <label for="item12">
+                        <input type="checkbox" name="shopping10" value="item6" id="item12">Beklava
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/sweets/Baklava.png" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem12" onclick="myFunction()">
+                        <input type="radio" name="shoping12" value="1.5" id="Beklava1">1.KG-(1.5$)<br>
+                        <input type="radio" name="shoping12" value="2" id="Beklava2">2.KG-(2$) <br>
+                        <input type="radio" name="shoping12" value="3.5" id="Beklava3">3.KG-(3.5$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum12" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost12" class="formitem23">cost</p>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <form action="">
+                    <label for="item13">
+                        <input type="checkbox" name="shopping13" value="item6" id="item13">Nakhatai
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/sweets/nankhatai.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem13" onclick="myFunction()">
+                        <input type="radio" name="shoping13" value="5" id="Nakhatai1">1.KG-(5$) <br>
+                        <input type="radio" name="shoping13" value="8" id="Nakhatai2">2.KG-(8$) <br>
+                        <input type="radio" name="shoping13" value="12" id="Nakhatai3">3.Kg-(12$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum13" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost13" class="formitem23">cost</p>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <form action="">
+                    <label for="item14">
+                        <input type="checkbox" name="shopping14" value="item6" id="item14">Gulab Jaman
+                    </label>
+                </form>
+                <div class="allphoto">
+                    <img src="itemamages/sweets/gulabjaman.jpg" alt="">
+                </div>
+            </td>
+
+            <td>
+                <form action="" id="formpageitem14" onclick="myFunction()">
+                        <input type="radio" name="shoping14" value="3.5" id="Nakhatai1">1.KG-(3.5$) <br>
+                        <input type="radio" name="shoping14" value="6.5" id="Nakhatai2">2.KG-(6.5$) <br>
+                        <input type="radio" name="shoping14" value="9" id="Nakhatai3">3.KG-(9$)
+                </form>
+            </td>
+
+            <td>
+                <form action="">
+                    <select name="shoping2" id="itemnum14" onchange="myFunction()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </form>
+            </td>
+            <td>
+                <p id="cost14" class="formitem23">cost</p>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td colspan="2">
+              <h1><center><i><b>Total Cost</b></i></center></h1>          
+            </td>
+            <td>
+                <div>
+                    <input type="button" class="cal" value="Total Cost" onclick="myfunction2()";>
+                </div>
+            </td>
+            <td>
+                <p class="formitem234" id="formitem234" >Total Cost</p>
+            </td>
+        </tr>
+
+
+
+
+    </table>
+
+</div>
+
+
+</body>
+</html>
